@@ -19,7 +19,9 @@ const renderer = new THREE.WebGLRenderer();
 
 renderer.setSize(window.innerWidth, window.innerHeight);
 
-document.body.appendChild(renderer.domElement);
+// document.body.appendChild(renderer.domElement);
+const container = document.querySelector('.container');
+container.appendChild(renderer.domElement);
 
 const scene = new THREE.Scene();
 
