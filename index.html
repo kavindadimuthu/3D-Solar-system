@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,9 +8,37 @@
       body {
         margin: 0;
       }
+      .container {
+        position: relative;
+      }
+      h1 {
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        z-index: 1;
+      }
+      .created-by {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        color: white;
+        z-index: 1;
+      }
+      .created-by a {
+        color: white;
+      }
+      canvas {
+        display: block;
+      }
     </style>
-    <script type="module" crossorigin src="/Solar-system-3D/assets/index-cnO7Jk5X.js"></script>
+    <script type="module" crossorigin src="/Solar-system-3D/assets/index-B7V9cv3c.js"></script>
   </head>
   <body>
+    <div class="container">
+      <h1>Solar System 3D Model</h1>
+      <div class="created-by">Created by <i><a href="https://github.com/kavindadimuthu">Kavinda Dimuthu</a></i></div>
+    </div>
   </body>
 </html>
