@@ -1,9 +1,9 @@
 {
-  "name": "solar-system-3d",
+  "name": "3d-solar-system",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kavindadimuthu.github.io/Solar-system-3D",
+  "homepage": "https://kavindadimuthu.github.io/3D-Solar-system",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
